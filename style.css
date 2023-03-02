@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+}
+
+.gameboard{
+    margin: 0 auto;
+    width: 450px;
+    height: 450px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+
+}
+
+.top{
+    border-bottom: 1px solid black;
+}
+
+.left {
+    border-right: 1px solid black;
+}
+
+.bot {
+    border-top: 1px solid black;
+}
+
+.right {
+    border-left: 1px solid black;
+}

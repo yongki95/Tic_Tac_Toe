@@ -1,3 +1,7 @@
+:root{
+    --gameboard-cell-border: 2px solid gray;
+}
+
 body{
     height: 100vh;
 }
@@ -13,17 +17,18 @@ body{
 }
 
 .top{
-    border-bottom: 1px solid black;
+    border-bottom: var(--gameboard-cell-border);
 }
 
 .left {
-    border-right: 1px solid black;
+    border-right: var(--gameboard-cell-border);
 }
 
 .bot {
-    border-top: 1px solid black;
+    border-top: var(--gameboard-cell-border);
 }
 
 .right {
-    border-left: 1px solid black;
+    border-left: var(--gameboard-cell-border);
 }
+

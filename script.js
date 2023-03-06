@@ -10,6 +10,12 @@ const Gameboard = (() => {
     return {GbArray};
 })();
 
+const controlGame = (() => {
+
+
+    return {};
+})();
+
 
 //Create Grid Cell
 const gameBoardDiv = document.getElementById('gameboard');
@@ -18,6 +24,8 @@ for(let i = 0; i < Gameboard.GbArray.length; i++){
     const grid = document.createElement('div')
     grid.className = 'grid';
     gameBoardDiv.appendChild(grid); 
+    grid.classList.add(i);
+
     if(i%3 === 1) {
         grid.classList.add('colCenter');
     } 

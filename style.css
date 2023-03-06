@@ -16,19 +16,13 @@ body{
 
 }
 
-.top{
+.rowCenter{
     border-bottom: var(--gameboard-cell-border);
-}
-
-.left {
-    border-right: var(--gameboard-cell-border);
-}
-
-.bot {
     border-top: var(--gameboard-cell-border);
 }
 
-.right {
+.colCenter {
     border-left: var(--gameboard-cell-border);
+    border-right: var(--gameboard-cell-border);
 }
 

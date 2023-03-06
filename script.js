@@ -11,7 +11,9 @@ const Gameboard = (() => {
 })();
 
 const controlGame = (() => {
+    const getGridNum = () => {
 
+    }
 
     return {};
 })();
@@ -24,8 +26,7 @@ for(let i = 0; i < Gameboard.GbArray.length; i++){
     const grid = document.createElement('div')
     grid.className = 'grid';
     gameBoardDiv.appendChild(grid); 
-    grid.classList.add(i);
-
+    grid.setAttribute('id',i);
     if(i%3 === 1) {
         grid.classList.add('colCenter');
     } 
